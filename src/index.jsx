@@ -1,11 +1,4 @@
-// const user = {
-//     name: 'Eduardo'
-// }
-
-// console.log(user.address?.street)
-
 import React from 'react';
+import { App } from './App';
 
-function app() {
-    return <h1>Hello World!!</h1>
-}
+
