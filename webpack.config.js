@@ -31,9 +31,9 @@ module.exports = {
               use: 'babel-loader'
             },
             {
-                test: /\.css$/, // regra pra ler arquivos css
+                test: /\.scss$/, // regra pra ler arquivos css
                 exclude: /node_modules/,
-                use: ['style-loader', 'css-loader']
+                use: ['style-loader', 'css-loader', 'sass-loader']
             }
           ]
     }
