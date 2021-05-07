@@ -29,6 +29,11 @@ module.exports = {
               test: /\.jsx$/, // regra pra ler arquivos jsx
               exclude: /node_modules/,
               use: 'babel-loader'
+            },
+            {
+                test: /\.css$/, // regra pra ler arquivos css
+                exclude: /node_modules/,
+                use: ['style-loader', 'css-loader']
             }
           ]
     }
